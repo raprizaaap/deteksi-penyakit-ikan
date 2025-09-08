@@ -51,7 +51,7 @@ st.markdown("""
 # Gunakan cache untuk memuat model agar tidak diulang setiap kali ada interaksi
 @st.cache_resource
 def load_keras_model():
-    model = load_model("model999.keras")
+    model = load_model("model999.h5")
     return model
 
 model = load_keras_model()
